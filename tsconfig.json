@@ -24,7 +24,7 @@
       "node",
     ],
     "lib": [
-      "ESNext"
+      "es2022"
     ]
   },
   "include": [
