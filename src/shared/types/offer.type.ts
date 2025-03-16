@@ -1,13 +1,13 @@
-import {City} from './city.enum';
-import {HousingType} from './housing-type.enum';
-import {Facility} from './facility-type.enum';
-import {User} from './user.type';
-import {Coordinates} from './coordinates.type';
+import {City} from './city.enum.js';
+import {HousingType} from './housing-type.enum.js';
+import {Facility} from './facility-type.enum.js';
+import {User} from './user.type.js';
+import {Coordinates} from './coordinates.type.js';
 
 export type Offer = {
   title: string;
   description: string;
-  postDate: Date;
+  createdDate: Date;
   city: City;
   preview: string;
   photos: string[];
